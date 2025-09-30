@@ -1,0 +1,230 @@
+body {
+  background-color: #5c48d2;
+  font-size: 16px;
+  font-family: verdana, tahoma, Arial, sans-sherif;
+}
+
+header {
+  color: white;
+  padding:50px
+}
+
+#titre {
+  text-align: center;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+
+main {
+  width: 1024px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  margin : 0 auto;
+}
+
+/* Menu */
+nav {
+  color: #190f33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+nav a.menu {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+}
+
+nav a.menu:hover {
+  font-size: 2rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.menu {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
+}
+
+#imgMain {
+  height: 300px;
+  width: 1024px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+/* General */
+.section {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 26px;
+  margin-left: 30px;
+  margin-bottom: 35px;
+  color: #190f33;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-left: 30px;
+  color: #190f33;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h4{
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+h5{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.textePresentation {
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 30px;
+}
+
+#s1 {
+  width: 1024px;
+  background-color: white;
+}
+
+#s2 {
+  background-color: #eeeef7;
+}
+
+#s3 {
+  background-color: white;
+}
+
+#s4 {
+  background-color: #eeeef7;
+  text-align: center;
+}
+
+#s4 img {
+  vertical-align: middle;
+}
+
+#s4 a {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+/* Section 1 => A propos */
+#aPropos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  margin-top: 15px;
+}
+
+#photosProfil {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightaPropos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:30px;
+  font-size: 1.3em;
+}
+
+#prenom {
+    font-weight: bold;
+    font-size: 33px;
+    color: #190f33;
+    margin-bottom: 40px;
+}
+
+#ville {
+  font-size: 27px;
+  color: #190f33;
+  font-style: italic;
+}
+
+#aPropos {
+  line-height: 30px;
+  font-size: 1.4rem;
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: justify;;
+}
+
+/* Section 2 => Formation */
+.imgIcone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.iconeLangue {
+  margin-top: 50px;
+  height : 125px;
+  aspect-ratio: 1/1;
+  margin-bottom: 50px;
+}
+
+.iconeTechno { 
+  margin-top: 50px;
+  height : 150px;
+  object-fit: contain;
+}
+
+/* Section 3 => Projets */
+.projet {
+  display: flex;
+  margin-top: 100px;
+}
+
+.projetGauche img {
+  width: 600px;
+  object-fit: contain;
+  margin-left: 30px;
+}
+
+.projetDroit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+
+.listeProjet {
+  line-height: 1.3rem;
+  font-size: 1.2rem;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.iconeContact {
+  height: 40px;
+  object-fit:cover;
+}
